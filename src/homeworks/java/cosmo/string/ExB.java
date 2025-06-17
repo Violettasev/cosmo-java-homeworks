@@ -13,6 +13,7 @@ import java.sql.SQLOutput;
 public class ExB {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
+
         StringBuilder input1 = new StringBuilder(input);
 
         System.out.println(input1.reverse());

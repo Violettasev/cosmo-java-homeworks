@@ -12,6 +12,7 @@ import java.util.Arrays;
 public class ExI {
     public static void main(String[] args) {
         String[] input = {"9806567890", "89990980644", "+79005556134" };
+
         String[] res = new String[input.length];
 
         for (int i = 0; i < input.length; i++){

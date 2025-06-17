@@ -11,6 +11,7 @@ public class ExJ {
     public static void main(String[] args) {
         String[] input = {"Дом", "Стена", "Машина", "Телефон", "Кот", "Микроволновка", "Деньги", "Яхта" };
         String maxstring = input[0];
+
         for (int i = 0; i < input.length; i++){
             if (input[i].length() > maxstring.length()){
                 maxstring = input[i];

@@ -13,8 +13,7 @@ public class ExG {
         String[] res = input.split(" ");
 
         System.out.println(res[2].replace("?", "")
-                .replaceFirst("д", "Д")
-                +" "+res[1]+" "
+                .replaceFirst("д", "Д") +" "+res[1]+" "
                 +res[0].replaceFirst("Г", "г")+"?");
 
     }
